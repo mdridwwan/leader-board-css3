@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* common styles or utilities */
+
+body {
+    background-color: #F3F1FF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 870px;
+    padding: 30px;
+    margin-bottom: 21px;
+    border-radius: 5px;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin: 30px 0;
+}
+
+
+/* top players styles */
+
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+    margin: 0 0 40px 0;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.pleyer-name {
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+
+/* -----------------
+           top-blogs-styles
+       --------------- */
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+    grid-column-gap: 66px;
+}
+
+.blog {
+    display: flex;
+}
+
+.thumbnail img {
+    width: 177px;
+    height: 117px;
+    display: flex;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.blog-author {
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+.blog-author a {
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
+}
+
+
+/* ------------------courses-styles------------------------ */
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 23px;
+}
+
+.course {
+    /* Width: 252.42px; */
+    /* Height: 269.79px; */
+    box-shadow: 0px 0px 9px #e2e2e2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.course-banner img {
+    width: 100%;
+}
+
+.course-title {
+    color: #1E1E1E;
+    font-size: 20px;
+    margin-top: 19px;
+}
+
+.course-author {
+    margin: 6px 0 20px 0;
+    color: #ED6B4F;
+    font-size: 15px;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course-info p {
+    color: #A2A2A2;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.field {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+.course-duration {
+    background-color: #FEE5DF;
+    color: #FF4A60;
+    border-radius: 14px;
+    padding: 0 10px;
+}
